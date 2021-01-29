@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="/style.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css"> 
-        <title>Papertiles</title>
-
         <meta name="theme-color" content="#ffffff">
-        
+        <title>Papertiles</title>
     </head>
     <body>
         <header>
             <nav>
                 <div class="row">
-                    <img src="img/Logo.png" alt="Papertiles Logo" class="logo">
+                    <div class="logo-row">
+                        <img src="img/Logo.png" alt="Papertiles Logo" class="logo">
+                    </div>
                 </div>
             </nav>
             <div class="text-box">
@@ -22,5 +22,79 @@
                 </h1>
             </div>
         </header>
+
+        <section class="section-about">
+            <div class="row">
+                <h2>Our Story</h2>
+                <p class="long-copy">
+                    Our ever rising consumption of goods and growing throwaway culture has taken a toll on the Earth’s resources. With the aim of minimizing the damage of our consumption patterns and with this in mind, innovative manufacturing processes were developed which would enable used newspapers to be transformed into furniture.<br>
+                    <br>
+                    Papertiles concept was conceived from months of research, cross-functional collaborations and experimentation resulted in the creation of the Papertiles material, opening endless possibilities to make a positive environmental impact globally.<br>
+                    <br>
+                    Our products is 100% natural – Handcrafted from a mixture of 100% newspaper and our secret glue – a bioplastic mixture that was developed in house. Colour is applied using an all natural milk-based paint that is free of lead or harsh chemicals to mitigate any harmful VOCs. A waterproofing coat is also provided to prolong the lifespan of our products. <br>
+                </p>
+            </div>
+        </section>
+
+        <section> 
+            <div class="section-slideshow">
+                <div class="slide">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="img/slide1.jpg" style="width:100%">
+                    <div class="text"></div>
+                </div>
+  
+                <div class="slide">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="img/slide2.jpg" style="width:100%">
+                    <div class="text">We shredded the newspapers</div>
+                </div>
+  
+                <div class="slide">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="img/slide3.jpg" style="width:100%">
+                    <div class="text">Then make it into papper porridge</div>
+                </div>
+                <div class="slide">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="img/slide4.jpg" style="width:100%">
+                    <div class="text">Add the glue and we pressed it down into shapes</div>
+                </div>
+  
+                <div class="slide">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="img/slide5.jpg" style="width:100%">
+                    <div class="text">Paint it for final touch and let it dry</div>
+                </div>
+  
+                <div class="slide">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="img/slide6.jpg" style="width:100%">
+                    <div class="text">These are the final products</div>
+                </div>
+  
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+  
+            <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+            </div> 
+        </section>
+
+        <footer>
+            <div class="row">
+                <p>
+                    by Fajar Wirazdi for Final Project Phase0 Hacktiv8 RMT-009-Istanbul-Fox
+                </p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
     </body>
 </html>
